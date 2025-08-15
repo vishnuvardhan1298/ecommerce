@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Test Suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demoblaze Tests">
+    <classes>
+      <!-- SignUpTests must run before LoginTests -->
+      <class name="com.demoblaze.tests.SignUpTests"/>
+      <class name="com.demoblaze.tests.LoginTests"/>
+    </classes>
+  </test>
+</suite>

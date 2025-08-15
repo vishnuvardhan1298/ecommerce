@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demoblaze Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demoblaze Tests(failed)">
+    <classes>
+      <class name="com.demoblaze.tests.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.demoblaze.tests.LoginTests -->
+    </classes>
+  </test> <!-- Demoblaze Tests(failed) -->
+</suite> <!-- Failed suite [Demoblaze Test Suite] -->
